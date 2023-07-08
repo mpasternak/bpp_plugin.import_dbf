@@ -44,4 +44,4 @@ jobs:
 
     - name: Pytest tests
       run: |
-        pytest
+        poetry run pytest
