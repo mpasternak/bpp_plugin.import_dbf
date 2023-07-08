@@ -44,4 +44,4 @@ jobs:
 
     - name: Pytest tests
       run: |
-        poetry run pytest
+        poetry run pytest  --ds=django_bpp.settings.test
